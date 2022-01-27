@@ -1,0 +1,40 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_container {
+  display: block;
+}
+
+.input_container p {
+  margin: 2px 0;
+  font-size: 14px;
+}
+
+.input_container input {
+  border: 1px solid rgb(192, 192, 192);
+  display: block;
+  font-size: 11px;
+  padding-left: 5%;
+  width: 95%;
+  height: 45px;
+  border-radius: 4px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  background-color: #e8fffc;
+}
+
+.auth_button{
+  background-color: #004C4C;
+  color: rgb(240, 240, 240);
+  padding: 20px 20px;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 6rem;
+  box-shadow: none;
+  border: none;
+  width: 88%;
+}
